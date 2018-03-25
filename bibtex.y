@@ -76,8 +76,8 @@ void connectDB(){
       char *server = "localhost";
       char *user = "root";
       //set the password for mysql server here
-      char *password = "pranav123"; /* set me first */
-      char *database = "newdb";
+      char *password = "/*insert password for MySQL connection*/"; /* set me first */
+      char *database = "/*choose database you want to work with*/";
 
       conn = mysql_init(NULL);
 
